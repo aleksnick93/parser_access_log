@@ -15,9 +15,7 @@ if (isset($argv[1]))//Есть наименование файла
     $parser = new Log_Parser($argv[1]);
     $parser->read_log_file();
     $output = $parser->print_results();
-    //print_r($output);
-    header('Content-Type: application/json');
-    print_r(json_decode(json_encode($output)));
+    print_r($output);
 }
 else
 {
