@@ -23,27 +23,29 @@ php parser.php access.log
 
 # Вывод на экран:
     [lines] => 16
-    [views] => 14
-    [unique_urls] => 3
-    [urls_list] => Array
-        (
-            [0] => http://bim-bom.ru/
-            [1] => http://wiki.org/index.php#lang=en
-            [2] => http://lag.ru/index.php
-        )
+        [views] => 14
+        [unique_urls] => 5
+        [urls_list] => Array
+            (
+                [0] => /chat.php
+                [1] => /mod.php
+                [2] => /app/engine/api.php
+                [3] => /app/modules/randomgallery.php
+                [4] => /chat.php?id=a65
+            )
 
-    [traffic] => 212816
-    [crawlers] => Array
-        (
-            [Google] => 2
-            [Bing] => 0
-            [Baidu] => 0
-            [Yandex] => 0
-            [Rambler] => 0
-        )
+        [traffic] => 212816
+        [crawlers] => Array
+            (
+                [Google] => 2
+                [Bing] => 0
+                [Baidu] => 0
+                [Yandex] => 0
+                [Rambler] => 0
+            )
 
-    [status_codes] => Array
-        (
-            [200] => 14
-            [301] => 2
-        )
+        [status_codes] => Array
+            (
+                [200] => 14
+                [301] => 2
+            )

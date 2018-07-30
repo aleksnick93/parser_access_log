@@ -66,10 +66,10 @@ class Log_Parser
 
         $ip = $log_str_arr[1]; //ip-адрес запроса
         $method = $log_str_arr[7]; //метод
-        $path_to_script = $log_str_arr[8]; //выполняемый скрипт
+        $url = $log_str_arr[8]; //адрес сайта
         $status = $log_str_arr[10]; //статус ответа
         $transfer = $log_str_arr[11]; //передано данных
-        $url = $log_str_arr[12]; //адрес сайта
+        $referer = $log_str_arr[12];
         $crawler = $log_str_arr[16];
         if ($crawler == '')
             $crawler = $log_str_arr[19];//Поисковик для 301 статуса
