@@ -84,7 +84,7 @@ class Log_Parser
 
         $status_arr = explode(' ',trim($status));
         $status = $status_arr[0];
-        if ($status != 301)
+        //if ($status != 301)
             $this->views++; //Просмотр какой-либо страницы считается при любом статусе кроме 301?
         if (array_key_exists($status, $this->status_codes)) {
             $this->status_codes[$status]++;

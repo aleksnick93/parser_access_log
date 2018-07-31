@@ -23,7 +23,7 @@ php parser.php access.log
 
 # Вывод на экран:
     [lines] => 16
-        [views] => 14
+        [views] => 16
         [unique_urls] => 5
         [urls_list] => Array
             (
